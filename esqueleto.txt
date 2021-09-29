@@ -1,0 +1,10 @@
+Pag-Inicial
+Nav -> Logo - Cardápio - Promoções - Localização - Social
+Section One - SVG -> button cardápio
+Section Two - IMg Promotions
+Section three - Description - gog maps
+Section Four - Social medias (buttons)
+Footer -  Copright default
+
+
+--> float button whatsapp

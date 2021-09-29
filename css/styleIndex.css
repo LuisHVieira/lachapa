@@ -1,0 +1,70 @@
+body{
+	font-family: 'Exo 2', sans-serif !important;
+}
+
+.titles{
+	background-color: #8c52ff;
+}
+
+.titles h1{
+	color: white;
+	padding: 0.5rem;
+}
+
+
+.titles i{
+	font-size: 2em;
+	padding-right: 2rem;
+}
+
+.icon-slide {
+	color: #8c52ff;
+}
+
+.social{
+	background-color: #8c52ff;
+	width: 10em;
+	height: 10em;
+}
+body{
+	font-family: 'Exo 2', sans-serif !important;
+}
+
+i{
+	font-size: 6em;
+	padding-left: 2rem;
+	color: white;
+}
+
+.social-links{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+.social-links:hover{
+	color: #8c52ff;
+}
+
+main{
+	min-height: 100vh;		
+}
+
+
+footer{
+	background-color: #C0C0C0;
+}
+
+footer a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+.cop{
+	background-color:#DCDCDC ;
+}
+
+.cop p{
+	margin-bottom: 0;
+}

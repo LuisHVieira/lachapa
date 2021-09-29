@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>LaChapa Lanches - Cardápio</title>
+	<meta name="author" content="Luìs Henrique Vieira">
+    <meta name="description" content="Cardápio LaChapa Lanches">
+    <meta name="keywords" content="lanches, porções, cardapio, lachapa, lachapalanches, lachapalanchesof, ouro fino, lanchonete">
+    <meta name="copyright" content="© 2021 La Chapa Lanches" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styleCardapio.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<style type="text/css">
+		p{
+			margin-bottom: 0;
+		}
+
+		.bg-lachapa{
+			background-color: #8c52ff;
+		}
+
+		.navbar{
+			position: fixed;
+			width: 100%;
+			z-index: 9999;
+		}
+
+		.navbar-light .navbar-brand{
+			color: white;
+		}
+
+		.navbar-light .navbar-nav .nav-link.active,
+		.navbar-light .navbar-nav .show>.nav-link {
+	 		color: rgba(0,0,0,.55);
+		}
+
+		.navbar-light .navbar-nav .nav-link {
+			color: white;
+		}
+
+		.navbar-light .navbar-nav .nav-link:hover {
+			color: rgba(0,0,0,.55) !important;
+		}
+
+		.nav-social{
+			font-size: 1em;
+			padding-left: 0;
+			color: white;
+		}
+
+		.nav-social:hover{
+			color: rgba(0,0,0,.55);
+		}
+
+		.mobile{
+			color: white;
+		}
+
+		.mobile:hover{
+			color: rgba(0,0,0,.55);
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-lachapa shadow ">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html">
+		    <img src="img/logo.png" alt="" width="35" height="29" class="d-inline-block align-text-top">
+	      	LaChapa
+	  	</a>
+
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="bi bi-list mobile"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item" role="presentation">
+	          <a class="nav-link" data-toggle="tab" href="index.html">Início</a>
+	        </li>
+	        <li class="nav-item" >
+	          <a class="nav-link active" href="cardapio.html">Cardápio</a>
+	        </li>
+	      </ul>
+
+	      <div class="ms-auto">  
+		      <ul class="nav justify-content-end">		
+			   <li class="nav-item">
+			    <a class="nav-link" href="https://www.facebook.com/LaChapaLanhesOF" target="_blank">
+			    	<i class="bi bi-facebook nav-social"> </i>
+			    </a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="https://www.instagram.com/lachapalanchesof/" target="_blank">
+			    	<i class="bi bi-instagram nav-social"> </i>
+			    </a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="https://api.whatsapp.com/send?phone=5535999373353" target="_blank">
+			    	<i class="bi bi-whatsapp nav-social"> </i>
+			    </a>
+			  </li>
+			  
+			</ul>
+		</div>
+		   
+	   </div>
+	  </div>
+	</nav>
+
+
+	<!--whats Button -->
+		
+	
+
+	<main class="container-fluid pt-5"> 
+		<nav class="nav nav-pills nav-justified pt-4">
+		  <a class="nav-link active" aria-current="page" type="button" id="nav-lanches">Lanches</a>
+		  <a class="nav-link"  aria-current="page" type="button" id="nav-porcoes">Porções</a>
+		</nav>
+
+
+		<div class="conteudo">
+		<div id="lanches"> 
+			<ol class="list-group list-group-numbered pt-3">
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Misto-Quente</div>
+			      (Presunto e Queijo)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$11,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Hambúrguer</div>
+			      (Hambúrguer e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$12,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Burguer</div>
+			      (Hambúrguer, tomate e queijo)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$13,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Egg</div>
+			      (Hambúguer, ovo, tomate e queijo)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$14,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Salada</div>
+			      (Hambúrguer, tomate, queijo e alface)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$14,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Prensadão</div>
+			      (4 fatias de presunto, 4 fatias de qeuijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$13,00</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Americano</div>
+			      (Presunto, ovo, tomate, queijo e alface)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$14,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Especial</div>
+			      (Hambúrguer, tomate, queijo e presunto)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$14,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Calabresa</div>
+			      (Calabresa, cebola, tomate e queijo)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$17,50</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Baita Burguer</div>
+			      (Hambúguer, ovo, tomate, queijo e presunto)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$16,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Bacon</div>
+			      (Hambúrguer, tomate, queijo e bacon)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$17,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Baita-Bacon</div>
+			      (Hambúguer, bacon, ovo, presunto, queijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$19,00</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">ki-Lanche</div>
+			      (2 Hambúgueres, ovo, presunto, tomate e queijo)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$18,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Frango</div>
+			      (Filé de frango, queijo, milho e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$19,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Carijó</div>
+			      (Frango desfiado, queijo, milho e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$13,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Nirvana</div>
+			      (bacon, catupiry, presunto, queijo, batata palha e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$19,50</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Quaresma</div>
+			      (4fatias de queijo, tomate, alface, milho, ovo, catupy e batata palha)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$17,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Churrasco</div>
+			      (Carne de Churrasco, cebola, queijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$20,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Churrasco Especial</div>
+			      (Carne de Churrasco, cebola, queijo, calabresa, bacon, milho, tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$23,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Tudo</div>
+			      (Hambúguer, bacon, ovo, presunto, queijo, frango, alface e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$20,50</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Pandora</div>
+			      (Presunto, queijo, bacon e milho)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$15,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Corujão</div>
+			      (Hambúrguer, bacon, presunto, queijo, milho e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$18,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Místico</div>
+			      (2 Hmabúrgueres, calabresa, presunto, queijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$20,50</span>
+			  </li>
+			  	<li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Calsone</div>
+			      (Hambúguer, bacon, frango, presunto, queijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$19,00</span>
+			  </li>
+			   <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Cheddar</div>
+			      (Frango desfiado, ovo, queijo, cheddar, alface e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$19,50</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">LaChapa</div>
+			      (2 Hambúrgueres, frango, bacon, catupiry, batata palha, milho, presunto, queijo e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$24,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">X-Tomé</div>
+			      (2 Hambúrgueres, 2 ovos, queijo, batata palha, alface e tomate)
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$13,00</span>
+			  </li>
+			</ol>
+		</div>
+
+		<div id="porcoes" style="display: none"> 
+				<ol class="list-group list-group-numbered pt-3">
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Batata</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$11,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Batata c/ queijo</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$14,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Batata c/ queijo e bacon</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$16,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Calabresa</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$20,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Frango</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$22,00</span>
+			  </li>
+			  <li class="list-group-item d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">Filé Supino ou Bovino</div>
+			    </div>
+			    <span class="badge bg-lachapa rounded-pill">R$28,00</span>
+			  </li>
+		</div>
+	</ol>
+	</div>
+	</main>
+
+	
+
+	<footer class="mt-auto">
+		<div class="container-fluid">
+			<div class="text-center pt-3">
+				<h2> LaChapa Lanches </h2>
+				<p> Formas de pagamento aceitas: PIX, Cartão e Dinheiro.</p>
+				<p> Obrigado pela escolha, volte sempre!</p>
+
+				<div class="d-inline-block">
+					<a href="https://www.facebook.com/LaChapaLanhesOF">
+						<button class="btn">
+							<span class="bi bi-facebook"></span>
+						</button>
+					</a>
+					<a href="https://www.instagram.com/lachapalanchesof/">
+						<button class="btn">
+							<span class="bi bi-instagram"></span>
+						</button>
+					</a>
+					<a href="https://api.whatsapp.com/send?phone=5535999373353">
+						<button class="btn">
+							<span class="bi bi-whatsapp"></span>
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="cop pt-2">
+				<div class="text-center">
+					<p>Copyright ©2021, Desenvolvido por Luís Henrique Vieira</p>
+				</div>
+				
+		</div>
+
+	</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+	<script>
+		
+		$("#nav-porcoes").on('click', function(){
+			$("#nav-porcoes").addClass("active")
+			$('#nav-lanches').removeClass('active');
+
+			$('#porcoes').css("display", "block")
+			$('#lanches').css("display", "none")
+		})
+
+		$("#nav-lanches").on('click', function(){
+			$("#nav-lanches").addClass("active")
+			$('#nav-porcoes').removeClass('active');
+
+			$('#porcoes').css("display", "none")
+			$('#lanches').css("display", "block")
+		})
+
+	</script>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
